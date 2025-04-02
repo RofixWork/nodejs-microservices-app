@@ -1,0 +1,30 @@
+{
+  "name": "search-service",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/server",
+    "dev": "nodemon src/server"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "amqplib": "^0.10.5",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "express-async-errors": "^3.1.1",
+    "helmet": "^8.1.0",
+    "http-status-codes": "^2.3.0",
+    "ioredis": "^5.6.0",
+    "joi": "^17.13.3",
+    "mongoose": "^8.12.2",
+    "rate-limiter-flexible": "^6.2.1",
+    "redis": "^4.7.0",
+    "winston": "^3.17.0"
+  }
+}
